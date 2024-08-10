@@ -1,0 +1,38 @@
+ABOUT_PROJECT:-
+-> This project is all about housing price prediction where a dataset called "california housing" is given and goal is to predict the price of the houses.
+
+FLOW_OF_PROJECT:-
+
+1) starts with fetching data from dataset.
+
+2) Data analysis using pandas dataframe.
+
+3)Creating Training and Testing set.
+
+4) Plotting graphs between features to gain insights using matplotlib and checking for correlations.
+
+5) Preparing the data for machine learning algorithms
+   ->strtafying the samples
+   ->Data Cleaning
+   ->Handling categorial variables using one hot encoding
+   ->Creating custom transformers (Creating own functions)
+   ->Standardizing the data.
+Created a pipeline using scikit-learn which does all the functions.
+
+6)Select models for training and choosing best one
+  -> Started with linear regression and performed worse
+  -> Then used Decision trees,performed even worse because model was overfit. I used cross validation technique to check whether model gone over fitting or not.
+  -> Then used Random forests which uses ensemble learning and performed better than other models.
+  -> Used Grid search technique to tune models with different hyperparameters.
+  -> For different set of hyperparmeters,ill get different models which i trained them seperately and evaluated using cross validation.
+
+7)Discovering feature importances by checking weights of features of models.
+
+8)Now finally evaluating the best model on testing set.
+
+METRIC I USED TO EVALUATE MODEL IS RMSE.
+
+   
+
+PROJECT_REFERENCE:-
+->This project is present in 2nd chapter from the book hands on machine learning with scikit learn and tensorflow by aurelien geron.

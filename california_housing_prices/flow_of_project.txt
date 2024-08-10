@@ -1,0 +1,29 @@
+Steps :-
+
+
+Upstream components:-
+1)Frame the problem (regression or classification)
+2)select performance measure
+3)check out the requirements
+4)Get the data
+5)Download the data
+6)create the workspace :- programming language,modules,environments.
+7)Load the data and take a look at it
+8)Data analysis
+9)splitting the data
+10)gaining insights from the data
+->plotting various features
+->expermimenting with different combinations
+11)Preparing the data for machine learning algorithms
+->data cleaning
+->Handling text and categorical attributes using one hot encoding
+->feature scaling
+Create Pipelines for data preprocessing(do seperately for numerical and categorical and combine using FeatureUnion class)
+12)Select and Train the model
+13)Fine tune model using grid search and randomized search
+14)analyse best model and errors
+
+Downstream components:-
+1)Evaluate your system on test set
+2)make presentations and documents for insights
+3)launch,monitor and maintain the system
